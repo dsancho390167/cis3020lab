@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fan Creations | Mind-Bending Anime With Heart</title>
+</head>
+<body>
+  <header>
+    <h1>Fan Creations</h1>
+    <p>A gallery of fan-made art, edits, cosplay, and videos made by fans</p>
+  </header>
+
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="top-five.html">Top Five</a></li>
+      <li><a href="behind-the-scenes.html">Behind the Scenes</a></li>
+      <li><a href="fan-creations.html" aria-current="page">Fan Creations</a></li>
+      <li><a href="qa.html">Q&amp;A</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section aria-label="Fan Creations Gallery">
+      <h2>Gallery</h2>
+
+      <figure>
+        <a href="https://x.com/ccbos_illus/status/1846507534045282631?t=TyLOP4fFcCrvj23BIODaTQ&s=19" target="_blank" rel="noopener noreferrer">
+          <img src="The_Beta_Attractor_Field"
+               alt="Steins;Gate"
+               width="400">
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>The Past is Calling</p>
+          <p><strong>Credit:</strong> <a href="https://x.com/ccbos_illus" target="_blank" rel="noopener noreferrer">cancerboss</a>X</p>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://tenor.com/view/lelouch-lelouch-vi-britannia-gif-10644372170577281430" target="_blank" rel="noopener noreferrer">
+          <div class="tenor-gif-embed" data-postid="10644372170577281430" data-share-method="host" data-aspect-ratio="1.76991" data-width="100%"><a href="https://tenor.com/view/lelouch-lelouch-vi-britannia-gif-10644372170577281430">Lelouch Lelouch Vi Britannia GIF</a>from <a href="https://tenor.com/search/lelouch-gifs">Lelouch GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>GEASS - The Power of Absolute Obedience!</p>
+          <p><strong>Credit:</strong> <a href="https://tenor.com/users/wns21" target="_blank" rel="noopener noreferrer">wns21</a>Tenor</p>
+        </figcaption>
+      </figure>
+
+     
+      <figure>
+        <a href="https://www.youtube.com/watch?v=TI07dNy55-M" target="_blank" rel="noopener noreferrer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TI07dNy55-M?si=QhoeJF-uDhAWg0E9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>Fanmade Cosplay Video of Link Click</p>
+          <p><strong>Credit:</strong> <a href="https://www.youtube.com/@bakaworu_" target="_blank" rel="noopener noreferrer">bakaworu</a>Youtube</p>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=1kOWy3Eyj5g" target="_blank" rel="noopener noreferrer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1kOWy3Eyj5g?si=U_UGvXZFH0yzMyLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>Sword Art Online Trailer (By: VidereMemoria)</p>
+          <p><strong>Credit:</strong> <a href="https://www.youtube.com/watch?v=1kOWy3Eyj5g" target="_blank" rel="noopener noreferrer">VidereMemoria</a>YouTube</p>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=FGu4kxvU9-o" target="_blank" rel="noopener noreferrer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/FGu4kxvU9-o?si=TqK4KNsFItL9ZD2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>Masterpeice Cover of Swordland - Main Theme of Sword Art Online</p>
+          <p><strong>Credit:</strong> <a href="https://www.youtube.com/@NaPPP" target="_blank" rel="noopener noreferrer">NaPPP</a>Youtube</p>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <a href="https://www.youtube.com/watch?v=X_Qd7uWZ3qc" target="_blank" rel="noopener noreferrer">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/X_Qd7uWZ3qc?si=6_ywc-7vw2cz2cnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <figcaption>
+          <p><strong>Caption:</strong>To Be Hero X - The Most Stylish Anime Fight You'll Ever See</p>
+          <p><strong>Credit:</strong> <a href="https://www.youtube.com/@crunchyroll" target="_blank" rel="noopener noreferrer">Crunchyroll</a>Youtube</p>
+        </figcaption>
+      </figure>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mind-Bending Anime With Heart</p>
+  </footer>
+</body>
+</html>
