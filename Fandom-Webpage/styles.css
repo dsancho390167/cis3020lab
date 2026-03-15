@@ -1,1 +1,185 @@
+/* =============== */
+/* Base + Theme    */
+/* =============== */
+:root{
+  --bg: #0b1020;
+  --surface: #121a33;
+  --surface-2: #0f1730;
+  --text: #e8ecff;
+  --muted: #b8c0e6;
+  --accent: #7aa2ff;
+  --accent-2: #a78bfa;
+  --border: rgba(255,255,255,0.12);
+}
 
+*{ box-sizing: border-box; }
+
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(167,139,250,0.18), transparent 60%),
+              radial-gradient(900px 500px at 90% 10%, rgba(122,162,255,0.18), transparent 55%),
+              var(--bg);
+  color: var(--text);
+}
+
+header, nav, main, footer{
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+
+header{
+  padding: 28px 0 10px;
+}
+header h1{
+  margin: 0 0 6px;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  letter-spacing: 0.2px;
+}
+header p{
+  margin: 0;
+  color: var(--muted);
+}
+
+/* =============== */
+/* Navigation      */
+/* =============== */
+nav{
+  margin: 14px auto 18px;
+  background: rgba(18,26,51,0.7);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  backdrop-filter: blur(6px);
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+nav a{
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid transparent;
+}
+
+nav a:hover{
+  border-color: var(--border);
+  background: rgba(255,255,255,0.06);
+}
+
+nav a[aria-current="page"]{
+  background: rgba(122,162,255,0.18);
+  border-color: rgba(122,162,255,0.35);
+}
+
+/* =============== */
+/* Layout + Text   */
+/* =============== */
+main{
+  background: rgba(18,26,51,0.65);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+section + section{
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+h2{
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+}
+p{
+  margin: 0 0 12px;
+  color: var(--text);
+}
+p:last-child{ margin-bottom: 0; }
+
+/* =============== */
+/* Images + Media  */
+/* =============== */
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+/* If you embed videos, this makes them responsive */
+iframe{
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+/* =============== */
+/* Lists + Cards   */
+/* =============== */
+ol{
+  padding-left: 22px;
+}
+ol li{
+  margin: 12px 0;
+}
+
+article{
+  background: rgba(15,23,48,0.65);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+figure{
+  margin: 16px 0;
+  background: rgba(15,23,48,0.65);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+figcaption{
+  margin-top: 10px;
+  color: var(--muted);
+}
+figcaption a{
+  color: var(--accent);
+}
+
+/* =============== */
+/* Footer          */
+/* =============== */
+footer{
+  padding: 12px 0 26px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* =============== */
+/* Responsive      */
+/* =============== */
+@media (max-width: 600px){
+  nav ul{
+    flex-direction: column;
+  }
+  nav a{
+    width: 100%;
+  }
+  main{
+    padding: 14px;
+  }
+}
