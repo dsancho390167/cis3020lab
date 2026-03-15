@@ -1,7 +1,3 @@
-body { background: red !important; }
-/* =============== */
-/* Base + Theme    */
-/* =============== */
 :root{
   --bg: #0b1020;
   --surface: #121a33;
