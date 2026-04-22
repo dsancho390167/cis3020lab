@@ -1,49 +1,93 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Mind-Bending Anime With Heart</title>
-                <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <header>
-                <h1>Mind-Bending Anime with Heart</h1>
-                <p>Twists, Emotion, and Bittersweet Endings.</p>
-            </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind-Bending Anime With Heart</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mind-Bending Anime with Heart</h1>
+      <p>Twists, Emotion, and Bittersweet Endings.</p>
+    </header>
 
-                <nav aria-label="Main Navigation">
-                        <ul>
-                                <li><a href="index.html" aria-current="page">Home</a></li>
-                                <li><a href="top-five.html">Top Five</a></li>
-                                <li><a href="behind-the-scenes.html">Behind the Scenes</a></li>
-                                <li><a href="fan-creations.html">Fan Creations</a></li>
-                                <li><a href="qa.html">Q&amp;A</a></li>
-                        </ul>
-                </nav>
-                
-        <main>
-            <section>
-                <h2>Welcome!</h2>
-                <p>Mind-bending and heart-shattering stories are my favorite themes because, 
-                        when they come together, they create unforgettable experiences. I chose 
-                        anime because it allows creators to express ideas in artistic ways that 
-                        can be emotionally powerful and psychologically intense. To me, anime has 
-                        one of the highest ceilings for storytelling impact, especially when it 
-                        combines plot twists, emotion, and bittersweet endings.</p>
-                <img src="images/Mindbending.png" alt="Logo Image" width="700">
-            </section>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="top-five.html">Top Five</a></li>
+        <li><a href="behind-the-scenes.html">Behind the Scenes</a></li>
+        <li><a href="fan-creations.html">Fan Creations</a></li>
+        <li><a href="qa.html">Q&amp;A</a></li>
+      </ul>
+    </nav>
 
-            <section>
-                <h2>What You'll Find on This Site</h2>
-                <p>This site focuses on anime that combine strong storytelling with
-                emotional depth. My Top Five page lists the series that best match
-                this theme, and the Behind the Scenes page shares extra facts,
-                links, and media related to the fandom.</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2026 Mind-Bending Anime With Heart</p>
-        </footer>
-    </body>
+    <main>
+      <section>
+        <h2>Welcome!</h2>
+        <p>Mind-bending and heart-shattering stories are my favorite themes because,
+          when they come together, they create unforgettable experiences. I chose
+          anime because it allows creators to express ideas in artistic ways that
+          can be emotionally powerful and psychologically intense. To me, anime has
+          one of the highest ceilings for storytelling impact, especially when it
+          combines plot twists, emotion, and bittersweet endings.</p>
+        <img src="images/Mindbending.png" alt="Logo Image" width="700">
+      </section>
+
+      <section>
+        <h2>What You'll Find on This Site</h2>
+        <p>This site focuses on anime that combine strong storytelling with
+          emotional depth. My Top Five page lists the series that best match
+          this theme, and the Behind the Scenes page shares extra facts,
+          links, and media related to the fandom.</p>
+      </section>
+
+      <section class="anime-quiz">
+        <h2>What Anime Fits You Best?</h2>
+        <p>Answer the questions below and find out which anime from my Top 5 matches your taste.</p>
+
+        <form id="anime-quiz-form">
+          <fieldset>
+            <legend>1. What kind of story do you enjoy most?</legend>
+            <label><input type="radio" name="q1" value="steinsgate" required> Time travel and emotional consequences</label>
+            <label><input type="radio" name="q1" value="codegeass"> Strategy, rebellion, and moral conflict</label>
+            <label><input type="radio" name="q1" value="linkclick"> Mystery and suspense</label>
+            <label><input type="radio" name="q1" value="sao"> Future technology and virtual worlds</label>
+            <label><input type="radio" name="q1" value="tobehx"> Heroes, rankings, and public image</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. What matters most to you in a series?</legend>
+            <label><input type="radio" name="q2" value="steinsgate" required> Emotional depth</label>
+            <label><input type="radio" name="q2" value="codegeass"> Complex decisions</label>
+            <label><input type="radio" name="q2" value="linkclick"> Twists and tension</label>
+            <label><input type="radio" name="q2" value="sao"> Big futuristic ideas</label>
+            <label><input type="radio" name="q2" value="tobehx"> Unique worldbuilding</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. What kind of main character do you like?</legend>
+            <label><input type="radio" name="q3" value="steinsgate" required> Someone who changes under pressure</label>
+            <label><input type="radio" name="q3" value="codegeass"> A brilliant and morally gray leader</label>
+            <label><input type="radio" name="q3" value="linkclick"> Someone drawn into dangerous mysteries</label>
+            <label><input type="radio" name="q3" value="sao"> A strong fighter in a high-tech world</label>
+            <label><input type="radio" name="q3" value="tobehx"> A hero shaped by society’s expectations</label>
+          </fieldset>
+
+          <button type="submit">Get My Result</button>
+        </form>
+
+        <section id="quiz-result" class="quiz-result" aria-live="polite">
+          <h3>Your result will appear here.</h3>
+          <p>Choose an answer for each question and submit the quiz.</p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Mind-Bending Anime With Heart</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
